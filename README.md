@@ -1,13 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/pN4UvCRJ)
-# Classifying cancer types from miRNA profiles
+# Code
 
-Add any top-level documentation here.
+This repository contains all notebooks used for our miRNA cancer classification project.
 
-The `handout` folder contains the handout for HW 3 and the grading rubric and does not need to be edited.
+## Files:
+- **RF_Final.ipynb** — Standard Random Forest model  
+- **Binarized_Final.ipynb** — Random Forest with binarized top-percent miRNA features  
+- **SVM.ipynb** — Support Vector Machine baseline  
+- **NeuralNet.ipynb** — Simple scikit-learn MLP neural network  
 
-The `src` folder should contain all code you write for this assignment (Python scripts, notebooks, etc.). Do *not* commit any data into your repo. 
-
-The `paper` folder is where to put your LaTeX source files and your final compiled PDF.
-
-Google Drive link to [The Cancer Genome Atlast data](https://drive.google.com/file/d/1jPRdAAxf9GDv4TZu_hVbdOOmx3Adszjb/view?usp=drive_link).
-
+All notebooks contain inline comments indicating any directories or lines that may need to be adjusted depending on the local setup.
